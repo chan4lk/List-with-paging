@@ -1,0 +1,30 @@
+{
+  "name": "news-listing",
+  "version": "1.0.0",
+  "description": "News listing for Jetstream",
+  "main": "app.init.js",
+  "scripts": {
+    "postinstall": "tsd install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "tsc": "tsc -w",
+    "start": "concurrently \"gulp\" \"npm run lite\" "
+  },
+  "keywords": [
+    "JetStream"
+  ],
+  "author": "Chandima Ranaweera",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.6",
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.4"
+  },
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.13.6"
+  }
+}

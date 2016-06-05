@@ -1,0 +1,11 @@
+<h2>News List</h2>
+
+<div class="lead">
+    <news-item name="listCtrl.name" item="item" data-ng-repeat="item in listCtrl.pageItems track by $index"></news-item>
+    
+    <ul class="pagination">
+        <li><a href="#" data-ng-click="listCtrl.previous()" data-ng-show="listCtrl.currentPage>1"><<</a></li>
+        <li><a href="#" data-ng-click="listCtrl.goTo($index)" data-ng-repeat="item in listCtrl.items track by $index" data-ng-show="$index%listCtrl.newsCount==0">{{$index / listCtrl.newsCount + 1}}</a></li>
+        <li><a href="#" data-ng-click="listCtrl.next()" data-ng-show="listCtrl.currentPage<listCtrl.items.length/listCtrl.newsCount ">>></a></li>
+    </ul>
+</div>

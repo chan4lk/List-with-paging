@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", 
+    "target": "ES5",
+    "module": "system",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "removeComments": false,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "sortOutput": true
+    }, 
+    "filesGlob": [
+        "app/**/*.ts",
+        "typings/**/*.d.ts"
+        ],
+    "files": [
+      "app/app.module.ts",
+      "app/services/app.service.search.ts",
+      "app/app.component.newslist.ts",
+      "app/app.component.ts",
+      "app/app.init.ts"      
+    ],
+    "outFile": "output.js",
+  "exclude": [
+    "node_modules"
+  ]
+  
+}
