@@ -1,2 +1,2 @@
-# Angular-Component-typescript
-Angular 1.X component with typescript and gulp.
+# Angular-Listing-typescript
+Angular 1.X Linting Component with typescript and gulp.
